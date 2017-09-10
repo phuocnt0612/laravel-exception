@@ -1,0 +1,19 @@
+{
+    "name": "phuoc/laravel-exception",
+    "description": "A small package to help handle custom exception from laravel 5.5",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Phuoc Nguyen",
+            "email": "phuocnt0612@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phuocnt\\LaravelException\\": "src/"
+        }
+    }
+}
