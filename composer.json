@@ -16,6 +16,13 @@
             "Phuocnt\\LaravelException\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phuocnt\\LaravelException\\Providers\\LaravelServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "license": "MIT"
