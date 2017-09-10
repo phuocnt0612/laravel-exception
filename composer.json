@@ -15,5 +15,8 @@
         "psr-4": {
             "Phuocnt\\LaravelException\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT"
 }
